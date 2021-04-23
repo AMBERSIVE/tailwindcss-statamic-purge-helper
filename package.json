@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-statamic-purge-helper",
+  "version": "0.1.0",
+  "description": "Helper methods for using tailwindcss in a statamic site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMBERSIVE/tailwindcss-statamic-purge-helper.git"
+  },
+  "keywords": [
+    "statamic",
+    "tailwindcss"
+  ],
+  "author": "Manuel Pirker-Ihl<manuel.pirker-ihl@ambersive.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AMBERSIVE/tailwindcss-statamic-purge-helper/issues"
+  },
+  "homepage": "https://github.com/AMBERSIVE/tailwindcss-statamic-purge-helper#readme"
+}
