@@ -1,6 +1,29 @@
 # Statamic Tailwindcss Purger Helper
 
-Helper methods to extract classes from markdown files. This methods will extract from the markdown files.
+## Installation
+
+```bash
+npm install npm i tailwindcss-statamic-purge-helper --save
+```
+
+## How-to
+
+This package provides some methods for a faster streamlined way to setup the purgecss part in a statamic application.
+
+### createPurgePaths:
+
+This method provides a basis list of paths in a statamic application.
+
+
+### extractFromMarkdown:
+
+This method will create a extractor for markdown files.  It will search for fields in each files and will extract the content as a list which will not be removed from the purged file.
+
+
+### createWhitelist:
+
+Creates a list of items based on the settings object.
+### Example:
 
 ```js
 
@@ -22,7 +45,7 @@ module.exports = {
                   'columns_per_row',
                   'headline_color'
               ]),
-              purgeHelper.extractFromMarkdown({
+              purgeHelper.createWhitelist({
                  gridCols: 10,
                  keep: [
                     'w-1/5',

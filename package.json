@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-statamic-purge-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helper methods for using tailwindcss in a statamic site.",
   "main": "index.js",
   "scripts": {
